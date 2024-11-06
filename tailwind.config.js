@@ -12,8 +12,15 @@ export default {
     },
     extend: {
       colors: {
-        primary: "#f5f505",
-        secondary: "#d22200",
+        primary: "#17cfb3",
+        primaryDark: "#26baa4",
+        secondary1: "	#6173ff",
+        secondary2: "		#6173ffee",
+        secondary3: "		#0054a8",
+        grayheader: "#585858",
+      },
+      fontFamily: {
+        bai: ["Bai Jamjuree", "sans-serif"],
       },
       spacing: {
         6: "2.5rem",
@@ -23,9 +30,7 @@ export default {
       borderRadius: {
         "4xl": "2rem",
       },
-      fontFamily: {
-        Itim: ["Itim"],
-      },
+
       backgroundImage: {
         img1: "url('/public/back2.webp')",
       },

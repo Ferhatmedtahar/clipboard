@@ -1,8 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h1 {
+    @apply text-grayheader text-center text-4xl font-bold;
+  }
+  body {
+    background-image: url("/bg-header-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+@media (max-width: 576px) {
+  body {
+    background-image: url("/bg-header-mobile.png");
+  }
+}
 .flexCenter {
   @apply flex items-center justify-center;
 }
