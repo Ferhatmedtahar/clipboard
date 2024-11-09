@@ -50,17 +50,17 @@ export default function Footer() {
 
       <div className="flex flex-col gap-4 md:flex-row">
         <img
-          src="public/icon-facebook.svg"
+          src="/icon-facebook.svg"
           alt="facebook icon"
           className="xs:h-5 xs:w-10 h-full"
         />
         <img
-          src="public/icon-twitter.svg"
+          src="/icon-twitter.svg"
           alt="twitter icon"
           className="xs:h-5 xs:w-10 h-full"
         />
         <img
-          src="public/icon-instagram.svg"
+          src="/icon-instagram.svg"
           alt="instagram icon"
           className="xs:h-5 xs:w-10 h-full"
         />

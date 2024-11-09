@@ -3,7 +3,7 @@ export default function Features() {
     <section className="relative mx-auto my-16 flex flex-col items-center space-x-28 font-bai md:flex-row md:items-start">
       <div className="md:w-1/2">
         <img
-          src="public/image-computer.png"
+          src="/image-computer.png"
           alt="computer image"
           className="right-[50%] top-0 md:absolute lg:right-[50%]"
         />

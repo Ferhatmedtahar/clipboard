@@ -6,7 +6,7 @@ export default function Access() {
         Whether you’re on the go, or at your computer, you can access all your
         Clipboard snippets in a few simple clicks.
       </p>
-      <img src="public/image-devices.png" alt="device image" className="" />
+      <img src="/image-devices.png" alt="device image" className="" />
     </div>
   );
 }

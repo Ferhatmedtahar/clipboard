@@ -8,7 +8,7 @@ export default function SuperCharge() {
       <div className="mt-5 grid grid-cols-1 gap-5 md:grid-cols-3">
         <div className="flexCenter max-w-xs flex-col gap-5">
           <img
-            src="public/icon-blacklist.svg"
+            src="/icon-blacklist.svg"
             alt="blacklist icon"
             className="mb-1 h-10 w-10"
           />
@@ -22,7 +22,7 @@ export default function SuperCharge() {
         {/* second column */}
         <div className="flexCenter max-w-xs flex-col gap-5">
           <img
-            src="public/icon-text.svg"
+            src="/icon-text.svg"
             alt="blacklist icon"
             className="mb-1 h-10 w-10"
           />
@@ -34,7 +34,7 @@ export default function SuperCharge() {
         {/* third column */}
         <div className="flexCenter max-w-xs flex-col gap-5">
           <img
-            src="public/icon-preview.svg"
+            src="/icon-preview.svg"
             alt="blacklist icon"
             className="mb-1 h-8 w-12"
           />
