@@ -5,7 +5,10 @@
 
 @layer base {
   h1 {
-    @apply text-grayheader text-center text-4xl font-bold;
+    @apply text-center text-4xl font-bold text-grayheader;
+  }
+  h2 {
+    @apply text-lg font-semibold text-grayheader md:text-xl;
   }
   body {
     background-image: url("/bg-header-desktop.png");

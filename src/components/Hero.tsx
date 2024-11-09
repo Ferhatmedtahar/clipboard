@@ -3,9 +3,9 @@ import Logo from "./Logo";
 
 export default function Hero() {
   return (
-    <section className="font-bai flexCenter h-[80vh] flex-col gap-12 px-10 pt-12">
+    <section className="flexCenter h-[90vh] flex-col gap-12 px-10 pt-12 font-bai sm:h-[80vh]">
       <Logo />
-      <div className="mt-1 flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center gap-4">
         <h1>A history of everything you copy</h1>
         <p className="max-w-3xl text-center text-2xl font-medium text-gray-400">
           Clipboard allows you to track and organize everything you copy.

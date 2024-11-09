@@ -11,7 +11,7 @@ export default function Button({
       : "bg-secondary1 text-white hover:bg-secondary2";
   return (
     <button
-      className={`w-full rounded-full text-xl font-medium transition-colors duration-200 md:max-w-sm ${styles} border px-8 py-4 text-center`}
+      className={`rounded-full text-lg font-medium transition-colors duration-200 sm:text-xl md:w-full md:max-w-sm ${styles} border px-5 py-3 text-center sm:px-8 sm:py-4`}
     >
       {children}
     </button>
