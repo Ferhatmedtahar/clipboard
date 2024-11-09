@@ -16,9 +16,6 @@ This project was built using:
 ## ✨ Features
 
 - Responsive and elegant UI
-- Easy clipboard management
-- iCloud sync support
-- Quick search functionality
 
 ## 📦 How to Run the Project
 
